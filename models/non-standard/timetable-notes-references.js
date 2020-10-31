@@ -31,6 +31,12 @@ module.exports = {
       type: 'integer',
       min: 0,
       index: true
+    },
+    {
+      name: 'show_on_stoptime',
+      type: 'integer',
+      min: 0,
+      max: 1
     }
   ]
 };
